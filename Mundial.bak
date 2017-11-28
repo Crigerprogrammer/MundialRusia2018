@@ -1,0 +1,38 @@
+#include <iostream.h>
+#include <stdlib.h>
+#include <conio.h>
+
+/************************************************
+					STRUCT SELECCION
+***********************************************/
+struct seleccion{
+	char nombre_seleccion[50]; //Nombre del equipo
+   char sede[30];             //Nombre de la sede que participara
+   int titulos;               //Numero de titulos que ha recibido
+};
+
+
+/************************************************
+					STRUCT ESTADIOS
+***********************************************/
+struct estadios{
+  char ciudad[50];            //Nombre de la ciudad del estadio
+  int capacidad;              //Cuantas personas pueden haber en el estadio
+  char nombre_estadio[50];    //Nombre del estadio
+  char descripcion_estadio[100]; //Descripcion breve del estadio
+};
+
+
+/************************************************
+					STRUCT JUGADORES
+***********************************************/
+struct jugadores{
+  char nombre_jugador[35];    //Nombre del jugador
+  char apellido_jugador[35];  //Apellido del jugador
+  int edad_jugador;           //Edad del jugador
+  int camisola;               //Numero de camisola del jugador
+  char posicion_jugador[35];  //En que posicion juega el futbolista
+  int estatura;               //Altura del jugador
+};
+
+int main(){
